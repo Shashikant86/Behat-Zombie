@@ -1,0 +1,8 @@
+default:
+    extensions:
+
+        Behat\MinkExtension\Extension:
+            base_url: https://saucelabs.com/
+            default_session: zombie
+            javascript_session: zombie
+            zombie: ~
