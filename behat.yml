@@ -2,15 +2,15 @@ default:
     extensions:
 
         Behat\MinkExtension\Extension:
-            base_url: http://www.google.com/
+            base_url: http://www.google.com
             default_session: zombie
             javascript_session: zombie
             zombie: ~
 
- elenium:
+selenium:
     extensions:
         Behat\MinkExtension\Extension:
-            base_url: http://www.google.com/
+            base_url: http://www.google.com
             default_session: selenium2
             javascript_session: selenium2
             selenium2: ~

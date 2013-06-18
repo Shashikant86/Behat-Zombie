@@ -8,3 +8,4 @@ Scenario: View home page
   Given I am on "/"
   When I fill in "q" with "shashi"
   Then I should see "Google"
+  And I should explore headless driver
