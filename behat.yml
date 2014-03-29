@@ -5,7 +5,8 @@ default:
             base_url: http://www.google.com
             default_session: zombie
             javascript_session: zombie
-            zombie: ~
+            zombie: 
+              node_modules_path: '/usr/local/share/npm/lib/node_modules/'
 
 selenium:
     extensions:
