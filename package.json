@@ -1,0 +1,14 @@
+{
+    "version": "0.1.1-1",
+    "description": "Behat Mink and Zombie Demo",
+    "engine": "node 1.1.x",
+    "dependencies" :{
+      "zombie" : "*"
+    },
+    "devDependencies": {
+        "grunt-cli": "0.1.6",
+        "grunt": "~0.4.0",
+        "grunt-contrib-clean": "~0.4.0",
+        "grunt-parallel-behat" : "*"
+    }
+}
