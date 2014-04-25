@@ -7,5 +7,5 @@ Feature: Google Search to explore zombie
 Scenario: View home page
   Given I am on "/"
   When I fill in "q" with "shashi"
-  Then I should see "Google"
+  Then I should see "Sign in"
   And I should explore headless driver
